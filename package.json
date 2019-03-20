@@ -2,12 +2,17 @@
   "name": "licence-keyboard",
   "version": "0.1.0",
   "private": true,
+  "main":"./dist/main.js",
   "scripts": {
     "serve": "vue-cli-service serve",
+    "dev": "webpack --mode production",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "less": "^3.9.0",
+    "less-loader": "^4.1.0",
+    "style-loader": "^0.23.1",
     "vue": "^2.6.6"
   },
   "devDependencies": {
@@ -18,6 +23,7 @@
     "babel-eslint": "^10.0.1",
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0",
-    "vue-template-compiler": "^2.5.21"
+    "vue-template-compiler": "^2.5.21",
+    "webpack-cli": "^3.3.0"
   }
 }

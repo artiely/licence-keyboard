@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <licence-keyboard v-model="licence"></licence-keyboard>
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
 
 export default {
   name: "app",
-  components: {
-    HelloWorld
+  data() {
+    return {
+      licence: []
+    };
   }
 };
 </script>

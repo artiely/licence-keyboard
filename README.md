@@ -1,29 +1,30 @@
 # licence-keyboard
 
-## Project setup
+一个自定义车牌号输入键盘
+
+![](./github/1.png)
+![](./github/2.png)
+![](./github/3.png)
+![](./github/5.png)
+
+## 安装
+
 ```
-npm install
+npm i
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
+## 使用
+
 ```
 
-### Compiles and minifies for production
-```
-npm run build
 ```
 
-### Run your tests
-```
-npm run test
-```
+## api
 
-### Lints and fixes files
-```
-npm run lint
-```
+| 属性           | 类型          | 说明                           | 默认    |
+| -------------- | ------------- | ------------------------------ | ------- |
+| value(v-model) | array[string] | 输入的车牌号                   | []      |
+| isMask         | boolean       | 是否展示遮罩层                 | true    |
+| licenceLength  | Number        | 车牌号的长度（默认包含新能源） | 8       |
+| slot           | slot          | 车牌号展示的内容               | default |
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

@@ -1,5 +1,7 @@
 import Vue from "vue";
 import App from "./App.vue";
+import licenceKeyboard from "./package";
+Vue.use(licenceKeyboard);
 
 Vue.config.productionTip = false;
 
