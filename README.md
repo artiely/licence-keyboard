@@ -10,12 +10,27 @@
 ## 安装
 
 ```
-npm i
+npm i licence-keyboard
 ```
 
 ## 使用
 
+```js
+import Vue from 'vue'
+import licenceKeyboard from 'licence-keyboard'
+Vue.use(licenceKeyboard)
+
 ```
+组件中
+``` html
+<template>
+  <div>
+    <licence-keyboard v-model="carId">
+      <!-- 这里为slot -->
+      <div>{{carId}}</div>
+    </licence-keyboard>
+  </div>
+</template>
 
 ```
 

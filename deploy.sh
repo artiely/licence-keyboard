@@ -7,12 +7,12 @@ set -e
 npm run dev
 
 # 发布
-npm publish
+# npm publish
 # 上传
 git init
 git add -A
 git commit -m 'deploy'
 
-git push -f git@github.com:artiely/blog.git master:gh-pages
+git push -f origin git@github.com:artiely/licence-keyboard.git master
 
 cd -
